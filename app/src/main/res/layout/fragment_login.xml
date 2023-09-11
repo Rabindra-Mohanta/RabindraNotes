@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#673AB7"
+    tools:context=".LoginFragment">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <EditText
+        android:inputType="number"
+        android:id="@+id/edtNumber"
+        android:layout_marginTop="@dimen/_100sdp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="@dimen/_250sdp"
+        android:layout_height="@dimen/_50sdp"/>
+
+    <EditText
+        android:id="@+id/edtPassWord"
+        android:layout_marginTop="@dimen/_30sdp"
+        android:inputType="textPassword"
+        android:layout_below="@+id/edtNumber"
+        android:layout_centerHorizontal="true"
+        android:layout_width="@dimen/_250sdp"
+        android:layout_height="@dimen/_50sdp"/>
+    <Button
+        android:id="@+id/btnSubmit"
+        android:textColor="@color/black"
+        android:text="Submit"
+        android:background="@drawable/rapple_effact"
+        android:layout_below="@+id/edtPassWord"
+        android:layout_marginTop="@dimen/_50sdp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="@dimen/_150sdp"
+        android:layout_height="@dimen/_40sdp"/>
+</RelativeLayout>
+
+</androidx.core.widget.NestedScrollView>
