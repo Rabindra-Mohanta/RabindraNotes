@@ -34,6 +34,12 @@
         android:layout_centerHorizontal="true"
         android:layout_width="@dimen/_150sdp"
         android:layout_height="@dimen/_40sdp"/>
+    <ProgressBar
+        android:visibility="gone"
+        android:id="@+id/progressBar"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
 </RelativeLayout>
 
 </androidx.core.widget.NestedScrollView>
