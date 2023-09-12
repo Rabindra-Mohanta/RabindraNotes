@@ -13,7 +13,6 @@ interface MyApi {
     @POST("api/v1/login/category/app")
     suspend fun loginUser(@Query("category") category:String,@Query("appName") appName:String,@Body loginRes: LoginRes):Response<GetLogonData>
 
-    @GET("api/v1/groups/{group_id}/today/staff/plan")
-    suspend fun getStaff(@Query("date") date:String,@Query("userId") userId:String):Response<StaffRes>
+
 
 }

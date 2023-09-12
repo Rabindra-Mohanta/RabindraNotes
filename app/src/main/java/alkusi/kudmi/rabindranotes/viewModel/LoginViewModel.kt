@@ -22,7 +22,7 @@ val loginLiveData:LiveData<NetworkResult<GetLogonData>>
     fun loginUser(loginRes: LoginRes)
     {
         viewModelScope.launch {
-            userRepository.loginUser("CAMPUS","GC2",loginRes)
+            userRepository.loginUser("school","GC2",loginRes)
 
         }
     }
