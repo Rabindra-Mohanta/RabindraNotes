@@ -2,10 +2,8 @@ package alkusi.kudmi.rabindranotes.network
 
 import alkusi.kudmi.rabindranotes.model.GetLogonData
 import alkusi.kudmi.rabindranotes.model.LoginRes
-import alkusi.kudmi.rabindranotes.model.StaffRes
 import retrofit2.Response
 import retrofit2.http.Body
-import retrofit2.http.GET
 import retrofit2.http.POST
 import retrofit2.http.Query
 

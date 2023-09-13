@@ -84,5 +84,7 @@ dependencies {
     implementation("androidx.navigation:navigation-fragment-ktx:$nav_version")
     implementation("androidx.navigation:navigation-ui-ktx:$nav_version")
 
+//glide dependency
+    implementation("com.github.bumptech.glide:glide:4.16.0")
 
 }
